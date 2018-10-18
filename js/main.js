@@ -44,7 +44,7 @@ for (const empty of empties) {
 // Start game function
 function startGame() {
     animals.picsShuffle();
-    fill.style.backgroundImage = `url("../img/${animals[0]}.jpg")`;
+    fill.style.backgroundImage = `url("./img/${animals[0]}.jpg")`;
     fill.setAttribute('data-value', `${animals[0]}`);
 }
 
@@ -80,7 +80,7 @@ function drop(e) {
             btnPlay.style.display = "inline-block";
             return false;
         }
-        fill.style.backgroundImage = `url("../img/${animals[index]}.jpg")`;
+        fill.style.backgroundImage = `url("./img/${animals[index]}.jpg")`;
         fill.setAttribute('data-value', `${animals[index]}`);
         fill.style.borderColor = "skyblue";
     } else {
