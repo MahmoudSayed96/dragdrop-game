@@ -68,6 +68,26 @@ body {
     z-index: 10;
 }
 
+footer {
+    background: rgb(1, 75, 104);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    font-size: 2rem;
+}
+
+footer span {
+    color: red;
+}
+
+footer a {
+    color: #fff;
+}
+
 /* Media Queries */
 @media(max-width:500px) {
 
@@ -80,5 +100,9 @@ body {
     .fill {
         width: 80px;
         height: 100px;
+    }
+
+    footer {
+        font-size: 1.2rem;
     }
 }
